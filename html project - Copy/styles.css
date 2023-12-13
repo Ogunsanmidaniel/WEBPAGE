@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.section1 {
+  height: 400px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/bg.jpg");
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+.bg-img {
+  opacity: 0.4;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.head-class {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.nav-button {
+  background: #aa336a;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.para-one-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.para-one-div button {
+  background: blue;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.head-title {
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  font-size: 24pt;
+}
+.para-one {
+  width: 500px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.button-tag {
+  display: flex;
+  gap: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-tag button {
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tags:hover {
+  background-color: blue;
+}
+
+.section2-div {
+  text-align: center;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". . . ."
+    ". . . .";
+}
+
+.gallery-div {
+  width: 200px;
+  height: 150px;
+}
